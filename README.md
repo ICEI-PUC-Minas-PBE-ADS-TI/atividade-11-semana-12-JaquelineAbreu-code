@@ -4,12 +4,14 @@ Nesta atividade, vamos trabalhar com uma API de mercado para montar uma interfac
 
 ## Informações Gerais
 
-- Nome:
-- Matrícula:
+- Nome: Jaqueline Abreu Silva Lima
+- Matrícula: 1542231
 
 ## Prints do trabalho
 
 <<  COLOQUE A IMAGEM - LISTA DE CARDS COM FILMES - AQUI >>
-
+![Print Console.log](imagens/img1.jpeg)
+![Print Console.log](imagens/img2.jpeg)
 <<  COLOQUE A IMAGEM - RESULTADO DE UMA PESQUISA - AQUI >>
+![Print Console.log](imagens/img3.jpeg)
 

@@ -1,13 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todos os Itens</title>
-    <script src="script.js"></script>
+    <title>Catálogo de Filmes</title>
+
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    
+
+    <nav class="navbar">
+        <h2 class="logo">MOVIEFLIX</h2>
+    </nav>
+
+    <header>
+
+        <h1>🎬 Catálogo de Filmes</h1>
+
+        <p class="subtitle">
+            Pesquise seus filmes favoritos utilizando a API TMDB.
+        </p>
+
+        <div class="search-container">
+
+            <input
+                type="text"
+                id="search"
+                placeholder="Digite o nome de um filme..."
+            >
+
+            <button id="btnSearch">
+                Buscar
+            </button>
+
+        </div>
+
+        <p id="message"></p>
+
+    </header>
+
+    <main>
+
+        <div id="movie-list"></div>
+
+    </main>
+
+    <div id="movieModal" class="modal">
+
+        <div class="modal-content">
+
+            <span id="closeModal">&times;</span>
+
+            <img
+                id="modalPoster"
+                alt="Poster do Filme"
+            >
+
+            <div class="modal-info">
+
+                <h2 id="modalTitle"></h2>
+
+                <p id="modalYear"></p>
+
+                <p id="modalRating"></p>
+
+                <p id="modalOverview"></p>
+
+            </div>
+
+        </div>
+
+    </div>
+<footer>
+    <p>
+        Desenvolvido por Jaqueline • ADS - PUC Minas
+    </p>
+</footer>
+    <script src="script.js"></script>
+
 </body>
+
 </html>
